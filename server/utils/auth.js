@@ -37,3 +37,5 @@ module.exports = {
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
   },
 };
+
+// REFACTOR TO WORK WITH GRAPHQL
