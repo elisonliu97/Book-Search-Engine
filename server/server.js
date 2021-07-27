@@ -19,12 +19,12 @@ if (process.env.NODE_ENV === 'production') {
 
 async function startServer() {
   apolloServer = new ApolloServer({
-      typeDefs,
-      resolvers,
-      context: authMiddleware,
+    typeDefs,
+    resolvers,
+    context: authMiddleware,
   });
   await apolloServer.start();
-apolloServer.applyMiddleware({ app });
+  apolloServer.applyMiddleware({ app });
 }
 startServer()
 
