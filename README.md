@@ -5,8 +5,10 @@
 You’ll need to complete the following tasks in each of these back-end files:
 
 * `server.js`: Implement the Apollo Server and apply it to the Express server as middleware.
+<!-- DONE -->
 
 * `auth.js`: Update the auth middleware function to work with the GraphQL API.
+<!-- DONE -->
 
 	**Hint**: Refer to the class activities as a refresher on how to do this.
 
