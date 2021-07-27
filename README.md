@@ -1,6 +1,7 @@
 # Book-Search-Engine
 
 ### Back-End Specifications
+<!-- DONE -->
 
 You’ll need to complete the following tasks in each of these back-end files:
 
@@ -15,8 +16,10 @@ You’ll need to complete the following tasks in each of these back-end files:
 * `Schemas` directory:
 
 	* `index.js`: Export your typeDefs and resolvers.
+	<!-- DONE -->
 
 	* `resolvers.js`: Define the query and mutation functionality to work with the Mongoose models.
+	<!-- DONE -->
 
 		**Hint**: Use the functionality in the `user-controller.js` as a guide.
 
@@ -73,8 +76,11 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 You'll need to create the following front-end files:
 
+<!-- DONE -->
 * `queries.js`: This will hold the query `GET_ME`, which will execute the `me` query set up using Apollo Server.
 
+
+<!-- DONE -->
 * `mutations.js`:
 
 	* `LOGIN_USER` will execute the `loginUser` mutation set up using Apollo Server.
