@@ -1,5 +1,2 @@
-SIGN UP FORM DOESNT LOG ME IN IMMEDIATELY
-
-SIGN UP FORM ALWAYS SHOWS ERROR MESSAGE
-
-SAVED BOOKS PAGE DOESNT SHOW SAVED BOOKS UNTIL REFRESH SOMETIMES
+mongodb+srv://elisonliu97:q6y69dgp@hwcluster.krzyi.mongodb.net/googlebooks?retryWrites=true&w=majority
+mongodb+srv://elisonliu97:q6y69dgp@hwcluster.krzyi.mongodb.net/budget?retryWrites=true&w=majority
