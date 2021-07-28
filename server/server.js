@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const db = require('./config/connection');
 const { ApolloServer } = require('apollo-server-express')
-const { typedefs, resolvers } = require('./schemas');
+const { typeDefs, resolvers } = require('./schemas');
 const { authMiddleware } = require('./utils/auth');
 // const routes = require('./routes');
 
@@ -19,7 +19,7 @@ if (process.env.NODE_ENV === 'production') {
 
 async function startServer() {
   apolloServer = new ApolloServer({
-    typedefs,
+    typeDefs,
     resolvers,
     context: authMiddleware,
   });
