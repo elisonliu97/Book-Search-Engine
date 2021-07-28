@@ -1,7 +1,7 @@
 # Book-Search-Engine
 
   ## Description
-  This is a web application that allows the user to search for books and save them to their list. The search uses google books api to search for books by title. 
+  This is a MERN stack web application that allows the user to search for books and save them to their list. The search uses google books api to search for books by title. 
   When the search comes up, the user can then save books to their list. They can check their list in the saved books tab in the navbar. On their saved books page,
   the user can delete books from their list if they want.
 
