@@ -6,10 +6,25 @@
   the user can delete books from their list if they want.
 
   ## Table of Contents
+  - [Tools and Technologies](#tools-and-technologies)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Contact me](#questions)
+
+  ## Tools and Technologies
+  - HTML/CSS
+  - Javascript
+  - Bootstrap
+  - ReactJS
+  - ExpressJS
+  - NodeJS
+  - MongoDB
+  - Mongoose
+  - Apollo Server
+  - Bcrypt
+  - JWT
+  - GraphQL
 
   ## Installation
   To run this application locally, clone this repository and install the dependencies using
